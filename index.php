@@ -8,5 +8,4 @@
 	Config\Autoload::run();
 	require_once "Views/template.php";
 	Config\Enrutador::run(new Config\Request());
-	print "hola";
  ?>
